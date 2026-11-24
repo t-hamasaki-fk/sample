@@ -1,3 +1,6 @@
+/*
+ * Apexクラスのコメント
+ */
 public with sharing class AccountOpportunityService {
     
     /**
