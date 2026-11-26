@@ -26,7 +26,7 @@ public with sharing class AccountOpportunityService {
             insert oppsToInsert;
         }
 
-        // リストが空でない場合のみDML（挿入）を実行 hamasaki
+        // リストが空でない場合のみDML（挿入）を実行 hamasaki Main
         if (!oppsToInsert.isEmpty()) {
             insert oppsToInsert;
         }
