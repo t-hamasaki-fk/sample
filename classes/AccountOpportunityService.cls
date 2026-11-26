@@ -43,7 +43,7 @@ public with sharing class AccountOpportunityService {
             insert oppsToInsert;
         }
        
-        // リストが空でない場合のみDML（挿入）を実行 Nishiyama
+        // リストが空でない場合のみDML（挿入）を実行 Nishiyama dev変更 feature_Nishiyama
         if (!oppsToInsert.isEmpty()) {
             insert oppsToInsert;
         }
