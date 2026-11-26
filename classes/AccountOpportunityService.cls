@@ -30,5 +30,25 @@ public with sharing class AccountOpportunityService {
         if (!oppsToInsert.isEmpty()) {
             insert oppsToInsert;
         }
+
+        // リストが空でない場合のみDML（挿入）を実行 kume
+        if (!oppsToInsert.isEmpty()) {
+            insert oppsToInsert;
+        }
+
+        // リストが空でない場合のみDML（挿入）を実行 abe
+        if (!oppsToInsert.isEmpty()) {
+            insert oppsToInsert;
+        }
+       
+        // リストが空でない場合のみDML（挿入）を実行 Nishiyama
+        if (!oppsToInsert.isEmpty()) {
+            insert oppsToInsert;
+        }
+       
+        // リストが空でない場合のみDML（挿入）を実行 kadoya
+        if (!oppsToInsert.isEmpty()) {
+            insert oppsToInsert;
+        }
     }
 }
