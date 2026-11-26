@@ -48,7 +48,7 @@ public with sharing class AccountOpportunityService {
             insert oppsToInsert;
         }
        
-        // リストが空でない場合のみDML（挿入）を実行 kadoya
+        // リストが空でない場合のみDML（挿入）を実行 kadoya kado作成
         if (!oppsToInsert.isEmpty()) {
             insert oppsToInsert;
         }
